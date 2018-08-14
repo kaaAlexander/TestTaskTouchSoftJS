@@ -1,0 +1,39 @@
+body {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+div {
+    background-color: lightgrey;
+    border: 1px solid black;
+    box-sizing: border-box;
+    float: left;
+    width: 25px;
+    height: 25px;
+}
+
+#gameArea {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: 502px;
+    height: 502px;
+}
+
+button {
+    margin: 10px;
+}
+
+.areaDiv {
+    background-color: lightgrey;
+}
+
+.snake {
+    background-color: green;
+}
+
+.apple {
+    background-color: red;
+}
